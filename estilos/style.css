@@ -5,3 +5,51 @@
     Verde:#49a09d
     Lilás:#5f2c82
 */
+/*CONFIGURAÇÕES GERAIS*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*CONFIGURAÇÃO DO MAIN, H1, IDs*/
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.458);
+}
+/*CONFING IMAGEM*/
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/predio-login.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 200px;
+} 
+/*CONFING FORMULÁRIO*/
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
